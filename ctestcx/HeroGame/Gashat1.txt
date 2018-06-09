@@ -1,0 +1,7 @@
+    puts("*10:*11:Dangerous Zombie     *12:Mighty Brothers XX");
+    puts("*13:Ju Ju Burger         *14:Maximum Mighty X     *15:Kamen Rider Chronicle");
+    puts("*16:Toki Meki Crisis     *17:Hyper Muteki         *18:Taddle Legacy");
+    puts("*19:Doctor Mighty XX     *20:Night of Safari      *21:Bang Bang Tank");
+    puts("*22:Mighty Creator VRX   *23:Hurricane Ninja      *24:Knock Out Fighter 2");
+    puts("*25:God Maximum Mighty X *26:Perfect Puzzle       *27:Knock Out Fighter");
+    puts("*28:Taddle Fantasy       *29:Bang Bang Simulations");

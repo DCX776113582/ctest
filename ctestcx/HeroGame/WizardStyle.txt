@@ -1,0 +1,2 @@
+1	flame	red	19870
+2	water	blue	17688

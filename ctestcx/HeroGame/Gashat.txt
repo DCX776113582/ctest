@@ -1,0 +1,8 @@
+******************************基础GASHAT***************************************
+A:Mighty-Action-X(EX-AID) B:Taddle-Quest(BRAVE)  C:Bang-Bang-Shooting(SINPE)
+D:Bakusou-Bike(LAZER)     E:Mighty-Action-X(GENM)
+******************************普通GASHAT***************************************
+*1:Mighty-Action-X       *2:Taddle-Quest          *3:Bang-Bang-Shooting
+*4:Bakusou-Bike          *5:Shakariki-Sports      *6:Gekitotsu-Robots
+*7:DoReMiFa-Beat         *8:Giri-Giri-Chambara    *9:Jet-Combat
+*10:Drago-Knight-Hunter-Z

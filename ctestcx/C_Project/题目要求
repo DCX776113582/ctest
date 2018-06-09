@@ -1,0 +1,48 @@
+本周测试：机试程序测试：
+
+5+5+5
+
+题目要求：
+创建工程：完成学员信息数据的创建、文件存储以及读取、显示器打印等功能：（包括学号、姓名、数学、物理、英语、计算机、总成绩），相关代码加上注释。
+
+1、创建工程。
+工程名称：C_Project （5分）
+
+2、创建stuInfo.h文件：定义一个结构类型来描述学生信息。
+a、定义学员结构体类型struct student（包括：long int型num变量存入学号，一个字符串name存入学生姓名，一个整形age，5个浮点型变量成绩）；（5分）
+b、对该类型进行类型别名定义：STUDENT ；(5分)
+
+3、stuInfo.c文件：
+a、STUDENT students[5]; //定义一个全局的结构类型数组变量来储存5名学员；（说明：可以是通过动态内存管理STUDENT* students[5];）（10分）
+b、void create(int n) ;//进行定义函数来创建5名学生变量，并手动键盘初始化变量；（10分）
+c、void save(); //自定义函数 save 保存学生数据数据到文件中；（20分）
+e、void load(); // 自定义函数load 读取文件数据到内存中；（20分）
+f、void showStudentInfo(STUDENT students[]);//自定函数打印学生信息（10分）
+
+3、main.c文件：调用测试
+主函数分别实现菜单式操作：调用创建、保存、打印、显示函数进行测试。（说明：如果采用动态内存管理，记得释放内存）（10分）
+打开终端进行测试，并执行生成对应的预处理阶段、编译阶段、汇编阶段、链接阶段、执行阶段的相关文件（5分）。
+Last login: Tue Jan 16 15:42:15 on ttys000
+bogon:~ mac$ ./Desktop/C/C_Project/C_Project
+-bash: ./Desktop/C/C_Project/C_Project: is a directory
+bogon:~ mac$ cd ./Desktop/C/C_Project/C_Project
+bogon:C_Project mac$ ls
+C_Project	main.o		stuInfo.h	stuInfo.s
+main.c		main.s		stuInfo.i	test.txt
+main.i		stuInfo.c	stuInfo.o	题目要求
+bogon:C_Project mac$ gcc -E main.c -o main.i
+bogon:C_Project mac$ gcc -E stuInfo.c -o stuInfo.i
+bogon:C_Project mac$ gcc -S main.i -o main.s
+bogon:C_Project mac$ gcc -S stuInfo.i -o stuInfo.s
+bogon:C_Project mac$ gcc -c stuInfo.s -o stuInfo.o
+bogon:C_Project mac$ gcc -c main.s -o main.o
+bogon:C_Project mac$ gcc main.o stuInfo.o -o C_Project
+bogon:C_Project mac$ ./C_Project
+**********************************
+*              1、创建            *
+*              2、保存            *
+*              3、打印            *
+*              4、显示            *
+**********************************
+请选择：
+
